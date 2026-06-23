@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CANCIONERO </title>
+<style>
+     .encabezado {color:white; 
+        font-size: 25px;
+        font-family: arial;
+    }
+    div ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    div li{
+        float:left;
+    }
+    div a{
+        display:block;
+        background-color:red;
+        text-decoration:none;
+        text-align:center;
+        margin:10px;
+        color:white;
+        width:150px;
+        height:30px;
+        line-height:30px;
+        font-family: sans-serif;
+    }
+    div a:hover{
+        background-color:blue;
+    }
+    .titulo1 {font-size:9px;
+        color: white;
+        font-family: Arial, Helvetica;
+        text-align: center;
+    
+    }
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .contenedor {
+        width: 1024px;
+        height: 768px;
+        border: 2px solid black;
+        margin: 0 auto;
+        
+        display: grid;
+        grid-template-columns: 512px 512px;
+        grid-template-rows: 90px 70px 568px 60px;
+
+    }
+    .box{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        border: 1px solid #333;
+    }
+    .header{
+        grid-column: span 2;
+        background-color: rgba(10, 126, 194, 0.986);
+
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .nav{
+        grid-column: span 2;
+        background-color:white;
+    }
+    .section{
+        background-color: rgb(5, 48, 75);
+        text-align: center;
+        
+    }
+    .aside{
+        background-color: darkblue;
+    }
+    .footer{
+        grid-column: span 2;
+        background-color: black;
+
+        justify-content: center;
+        align-items:center;
+        color: white;
+        font-size: 20px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+</style>
+</head>
+<body>
+    <div class="contenedor"> 
+    <div class="box header"> <span class="encabezado"> Cancionario </span> </div>
+    <div class="box nav">
+        <ul>
+            <li> <a href="Believer.html">Believer</a></li>
+            <li> <a href="Yellow.html">Yellow</a></li>
+            <li> <a href="Bohemian.html">Bohemian </a></li>
+            <li> <a href="Thunder.html">Thunder</a></li>
+            <li> <a href="In the end.html">In the end</a></li>
+            <li> <a href="index.html">inicio</a></li>
+        </ul> 
+ 
+    </div>
+    <div class="box section"> <span class="titulo1"> <h1> Coldplay - Yellow </h1>
+        
+        <article> 
+        <p> Look at the stars
+        <p> Look how they shine for you
+        <p> And everything you do
+        <p> Yeah, they were all yellow
+
+        <p> <br>I came along
+            <p> I wrote a song for you
+            <p> And all the things you do
+            <p> And it was called Yellow </br>
+
+        <p> <br> So, then I took my turn
+            <p> Oh, what a thing to have done
+            <p> And it was all yellow </br>
+
+        <p> <br> (Ah) your skin, oh yeah, your skin, and bones
+            <p> (Ooh) turn into something beautiful
+            <p> (Ah) and you know, you know I love you so
+            <p> You know I love you so </br>
+                
+        <p> <br> I swam across
+            <p> I jumped across for you
+            <p> Oh, what a thing to do
+            <p> Cause you were all yellow </br>
+
+        <p> <br> I drew a line
+            <p> I drew a line for you
+            <p> Oh, what a thing to do
+            <p> And it was all yellow </br> 
+            
+        <p> <br> (Ah) your skin, oh yeah, your skin, and bones
+            <p> (Ooh) turn into something beautiful
+            <p> (Ah) and you know, for you, I'd bleed myself dry
+            <p> For you, I′d bleed myself dry </br>   
+        
+
+        <p> <br> It's true
+            <p> Look how they shine for you
+            <p> Look how they shine for you
+            <p> Look how they shine for-
+            <p> Look how they shine for you
+            <p> Look how they shine for you
+            <p> Look how they shine </br>
+
+        <p> <br> Look at the stars
+            <p> Look how they shine for you
+            <p> And everything you do </br>
+
+            <br> <audio src="Yellow.mp3" controls> </audio>
+             </article>
+    </span>
+    </div>
+    
+    <div class="box aside"> <img src="2.jfif" width="80%" height="80%"> </div>
+    <div class="box footer"> &copy; Cristopher Pacheco y Diego Rosado - todos los derechos reservados </div>
+</div>
+</body>
+</html>
